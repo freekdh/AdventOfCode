@@ -140,12 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\day_1\day1.cpp" />
+    <ClCompile Include="src\Runner.cpp" />
     <ClCompile Include="src\utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="src\day_1\input.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\day_1\day1.h" />
     <ClInclude Include="src\utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
